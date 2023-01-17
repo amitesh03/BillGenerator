@@ -1,10 +1,10 @@
 import './App.css';
-
+import img from './bg-sidebar-desktop.svg';
 function App() {
   return (
-    <>
+    <><div className='parent'>
     <div className='img'>
-    <img src="../public/bg-sidebar-desktop.svg" alt="image" />
+    <img src={img} alt="image" />
     </div>
     <div className='info'>
     <h1 className='heading'>Your Information</h1>
@@ -16,6 +16,7 @@ function App() {
     <label htmlFor="phone">Phone</label>
     <input type="tel" placeholder='Enter your Phone Number'/>
     </form>
+    </div>
     </div>
     </> 
   );

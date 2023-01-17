@@ -1,0 +1,193 @@
+.parent {
+    background: #B7C3D7;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.container {
+    position: absolute;
+    width: 950px;
+    height: 660px;
+    background: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    position: absolute;
+    width: 28%;
+    height: 97%;
+    background: #483EFF;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+
+}
+
+.step1 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 29px;
+    top: 10.4%;
+
+    
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.step2 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 29px;
+    top: 20.3%;
+
+   
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.step3 {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 29px;
+    top: 30.5%;
+
+   
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.pageNo {
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    top: -37%;
+    left: 35%;
+    font-family: 'inter';
+    font-weight: 700;
+}
+
+.stepNo1{
+    position: absolute;
+    top: 6.7%;
+    left: 30%;
+    color: rgba(255, 255, 255, 0.46);
+    font-weight: 600;
+}
+.stepNo2{
+    position: absolute;
+    top: 16.5%;
+    left: 30%;
+    color: rgba(255, 255, 255, 0.46);
+    font-weight: 600;
+}
+.stepNo3{
+    position: absolute;
+    top: 27%;
+    left: 30%;
+    color: rgba(255, 255, 255, 0.46);
+    font-weight: 600;
+}
+
+.stepName1{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    color: whitesmoke;
+    font-weight: 800;
+    font-family: 'inter';
+    letter-spacing: 1px;
+}
+
+.stepName2{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: white;
+    font-weight: 800;
+    font-family: 'inter';
+    letter-spacing: 1px;
+}
+
+.stepName3{
+    position: absolute;
+    top: 30.3%;
+    left: 30%;
+    color: white;
+    font-weight: 800;
+    font-family: 'inter';
+    letter-spacing: 1px;
+}
+
+.goBack{
+    position: absolute;
+    top: 90%;
+    left: 35%;
+    background: white;
+    border: none;
+    color: gray;
+    font-size: 19px;
+}
+
+.nextStep{
+    position: absolute;
+    top: 89.5%;
+    left: 80%;
+    background:#001127;
+    height: 6%;
+    width: 12%;
+    border-radius: 7px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextStep h3{
+    color: white;
+
+}
+
+.one{
+    position: absolute;
+    top: 69%;
+}
+
+.two{
+    position: absolute;
+    top: 78%;
+}
+
+.three{
+    position: absolute;
+    top: 79.8%;
+    left: 41%;
+}
+
+.four1{
+    position: absolute;
+    top: 85%;
+    left: 61%;
+}
+
+.four2{
+    position: absolute;
+    top: 86%;
+    left: 71%;
+    transform: rotate(90deg);
+}
+
+.four3{
+    position: absolute;
+    top: 90%;
+    left: 65%;
+    transform: rotate(330deg);
+}

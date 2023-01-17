@@ -1,0 +1,156 @@
+.form{
+    position: absolute;
+    top: 44.5%;
+    left: 64%;
+    transform: translate(-50%, -50%);
+    height: 85%;
+    width: 60%;
+}
+.heading{
+    color: #04285A;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+}
+
+.text{
+    top: 16%;
+    position: absolute;
+    left: 7%;
+    color:#AFAFAF;
+    font-size: 17px;
+    font-style: 'inter';
+    letter-spacing: 1.5px;
+}
+.gridContainer{
+    position: absolute;
+    top: 33%;
+    left: 3%;
+    height:34%;
+    width: 92%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.arcade{
+    border-radius: 10px;
+    height: 100%;
+    width: 30%;
+    border: 0.5px solid rgba(65, 34, 115, 0.7);
+}
+.advanced{
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    border: 0.5px solid rgba(65, 34, 115, 0.7);
+}
+.pro{
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    border: 0.5px solid rgba(65, 34, 115, 0.7);
+}
+
+.circle1{
+    margin-top: 20%;
+    margin-left: 10%;
+    background: #A1572C;
+    height: 25%;
+    width: 31%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle1 h2{
+    position: absolute;
+    top: 61%;
+    left: 2%;
+    font-size: 20px;
+}
+.circle1 p{
+    position: absolute;
+    left: 3%;
+    top: 76%;
+    color: #929292;
+    font-style: 'roboto';
+    font-size: 15px;
+}
+.circle2{
+    margin-top: 20%;
+    margin-left: 10%;
+    background: #8D3C41;
+    height: 25%;
+    width: 31%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle2 h2{
+    position: absolute;
+    top: 61%;
+    left: 37%;
+    font-size: 20px;
+}
+.circle2 p{
+    position: absolute;
+    top: 77%;
+    left: 37%;
+    color: #929292;
+    font-style: 'roboto';
+    font-size: 15px;
+}
+.circle3{
+    margin-top: 20%;
+    margin-left: 10%;
+    background: #1F1D7F;
+    height: 25%;
+    width: 31%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle3 h2{
+    position: absolute;
+    top: 61%;
+    left: 72%;
+    font-size: 20px;
+
+}
+.circle3 p{
+    position: absolute;
+    top: 77%;
+    left: 72%;
+    color: #929292;
+    font-style: 'roboto';
+    font-size: 15px;
+}
+
+.options{
+    background: #D1D3DE;
+    height: 10%;
+    width: 92%;
+    position: absolute;
+    top: 72%;
+    left: 3%;
+    border-radius: 10px;
+}
+
+.options p:nth-of-type(1){
+    font-size: 20px;
+    position: absolute;
+    left: 27%;
+    top: -10%;
+}
+
+.options p:nth-of-type(2){
+    font-size: 20px;
+    position: absolute;
+    left: 60%;
+    top: -10%;
+}
